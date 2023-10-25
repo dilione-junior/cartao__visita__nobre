@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gabarito&family=Kanit:wght@300;400&family=Krona+One&family=Roboto+Slab&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #ec8383;
+  }
+  
+  .logo-principal {
+    width: 200px;
+  }
+  
+  .link-menu {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cartao {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .titulo-milenaEmmert {
+    color: #9C3C8D;
+  }
+  
+  #milenaEmmert {
+    background-color: yellowgreen;
+    border-radius: 20px;
+  }
+  :root {
+    /*id="dilioneJunior"*/
+    --cor-primaria-nobre: rgb(210, 15, 210);
+    --cor-secundaria-nobre:  rgb(2, 212, 212);
+    --cor-terciaria-nobre:  rgb(0, 0, 0);
+    --cor-hover: rgb(71, 68, 71);
+    --fonte-nobre-primaria:'Alumni Sans Collegiate One', sans-serif;
+    --fonte-nobre-secundaria:'Bruno Ace', sans-serif;
+}
+  .cartao__nobre{
+    background-image: url(../imagens/fundoCartao.jpg);
+    width: 600px;
+    height: 400px;
+    margin: 0%;
+  }
+  .titulo__nobre{
+    font-family: var(--fonte-nobre-primaria);
+    font-size: 65px;
+    text-align: center;
+    padding: 0 0 0 0;
+    font-weight: 400;
+    color: var(--cor-primaria-nobre);
+    text-shadow: 1px 1px 2px var(--cor-secundaria-nobre);
+  }
+  .subtitulo__nobre{
+    font-family: var(--fonte-nobre-secundaria);
+    font-size: 21px;
+    font-weight: bold;
+    color: var(--cor-primaria-nobre);
+    text-shadow: 1px 1px 2px var(--cor-secundaria-nobre);
+    text-align: center;
+  }
+  .habilidades__nobre{
+    display: flex;
+    width: 500px;
+  }
+  .habilidades__texto{
+    font-family: var(--fonte-nobre-secundaria);
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--cor-primaria-nobre);
+    text-shadow: 1px 1px 2px var(--cor-secundaria-nobre);
+    padding: 15px 0 10px 38px;
+  }
+  .logos__diversos{
+    padding: 13px 0 0 30px;
+  }
+  .foto__nobre{
+    padding: 0 0 0 530px;
+  }
+  .foto__nobre__junior{
+    justify-items: right;
+    border: 2px ridge var(--cor-secundaria-nobre);
+    border-radius: 10px;
+    padding: 4px;
+    width: 50px;
+  }
+  .saber__mais{
+    display: flex;
+  }
+  .link__saber__mais{
+    font-family: var(--fonte-nobre-secundaria);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 2px 10px 0 0;
+    text-align: right;
+    color: var(--cor-primaria-nobre);
+    width: 600px;
+    text-align: right;
+    flex-direction: column-reverse;
+  }
+  .link__saber__mais:link{
+    text-decoration: none;
+  }
+  .link__saber__mais:visited{
+    color: var(--cor-primaria-nobre);
+  }
+  .link__saber__mais:hover{
+    color: var(--cor-secundaria-nobre);
+    text-decoration: underline;
+  }
+  .link__saber__mais:active{
+    color: var(--cor-secundaria-nobre);
+  }
+  .redes__nobre{
+    display: grid;
+    padding: 9px 10px 0 15px;
+    text-align: left;
+  }
+  .contatos__nobre{
+    font-family: var(--fonte-nobre-secundaria);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-secundaria-nobre);
+    text-shadow: 1px 1px 2px var(--cor-secundaria-nobre);
+    width: 230px; 
+    text-align: left
+  }
+
+  .link__botao{
+    font-family: var(--fonte-nobre-secundaria);
+    font-size: 13px;
+    font-weight: 300;
+    padding: 9px 0 13px 20px;
+    width: 230px;
+    text-align: left;
+  }
+  .link__botao:link{
+    text-decoration: none;
+  }
+  .link__botao:visited{
+    color: var(--cor-primaria-nobre);
+  }
+  .link__botao:hover{
+    color: var(--cor-secundaria-nobre);
+    background-color: var(--cor-hover);
+    text-decoration: underline;
+    border: solid var(--cor-secundaria-nobre);
+  }
+  .link__botao:active{
+    color: var(--cor-secundaria-nobre);
+  }
